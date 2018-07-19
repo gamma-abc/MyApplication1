@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        //隐藏标题栏
+        <!--隐藏标题栏-->
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
+            <!--//启动入口-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
